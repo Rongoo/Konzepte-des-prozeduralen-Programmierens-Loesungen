@@ -7,12 +7,13 @@ int main(){
     fgets(myString , BUFLEN , stdin);
 
     int counter = 0;
-    for(int i = 0; myString[i]!= 0 && i < BUFLEN;i++){
-        if(myString[i] != '\n'){
-        counter++;
-        }
+    for(counter = 0; myString[counter]!= 0 && counter < BUFLEN; counter++);
+
+    if(myString[counter-1] == '\n'){
+        counter--;
     }
-    printf("%d",counter);
+
+    printf("Der String ist %d Zeichen lang.",counter);
 
     return 0;
 }
