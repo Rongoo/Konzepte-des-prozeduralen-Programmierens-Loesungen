@@ -1,1 +1,2 @@
-# Konzepte-des-prozeduralen-Programmierens---L-sungen
+# Konzepte-des-prozeduralen-Programmierens---Loesungen
+# Zu KPP bei Hon
