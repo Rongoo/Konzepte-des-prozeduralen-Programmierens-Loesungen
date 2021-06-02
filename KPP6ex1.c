@@ -10,10 +10,10 @@ int main(){
     string_len--;
     for(int i = 0; i<string_len/2;i++){
         if(*(text+i)!= *(text+string_len-(i+1))){
-            printf("Kein Palimdrom!");
+            printf("Kein Palindrom!");
             return 0;
         }
     }
-    printf("Palimdrom!");
+    printf("Palindrom!");
     return 0;
 }
